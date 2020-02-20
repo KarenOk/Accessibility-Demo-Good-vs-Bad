@@ -1,0 +1,132 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    width: 95%;
+    /* max-width: 1000px; */
+}
+
+/* Header Styles */
+
+.header, header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.navigation li, nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.navigation li a, nav li a {
+    color: rgb(148, 1, 1);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.logo {
+    width: 80px;
+}
+
+.path {
+    margin: 20px 0;
+}
+
+.path .current {
+    font-weight: 600;
+}
+
+/* Main Content */
+
+.content, main {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px auto;
+}
+
+.product-img {
+    flex: 2;
+}
+
+.product-details {
+    flex: 3;
+}
+
+.product .split>* {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 0;
+}
+
+.fa-star:before {
+    font-size: 0.7em;
+}
+
+.fa-star.checked {
+    color: rgb(148, 1, 1);
+}
+
+.product .add-btn, .product button {
+    color: white;
+    background-color: rgb(148, 1, 1);
+    width: 25%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 20px 0 10px;
+    border: none;
+    border-radius: 1px;
+}
+
+.product .add-btn:hover, .product button:hover {
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.product .about {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.product .about h3 {
+    font-size: 1em;
+}
+
+/* Footer */
+
+.footer, footer {
+    color: white;
+    background-color: rgb(148, 1, 1);
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a, footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer .copyright {
+    font-size: 0.7em;
+    color: rgb(107, 103, 103);
+}
+
+footer .copyright {
+    font-size: 0.7em;
+    color: white;
+}
+
+img.social-media {
+    width: 1.5em;
+    margin: 10px;
+}

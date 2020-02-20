@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Accessibility demo (after)">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Accessibility Demo</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"> Home </a></li>
+                <li> <a href="#"> Product </a></li>
+                <li> <a href="#"> Company </a> </li>
+                <li> <a href="#"> Contact Us </a> </li>
+            </ul>
+        </nav>
+        <a href="#"><img class="logo" alt="ABC Stores" src="../images/logo.png"> </a>
+    </header>
+
+    <div class="path">
+        HOME/PRODUCTS/PHONES/<span class="current">IPHONE12</span>
+    </div>
+
+    <main class="product">
+        <div class="product-details">
+            <h2> Apple iPhone 12 Original 5G 1TB + Fast Wireless Charging </h2>
+            <h3 class="price"> $1500.00 </h3>
+
+            <div class="split">
+                <span> Rating: 3.5/5 </span>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+
+
+            <div class="split">
+                <div class="color-picker">
+                    <label for="color"> Colour: </label>
+                    <select id="color" name="color">
+                        <option> Green </option>
+                        <option> Pink </option>
+                        <option> Red </option>
+                        <option> Yellow </option>
+                    </select>
+                </div>
+
+                <div class="quantity-picker">
+                    <label for="quantity"> Quantity </label>
+                    <select id="quantity">
+                        <option> 1 </option>
+                        <option> 5 </option>
+                        <option> 10 </option>
+                    </select>
+                </div>
+            </div>
+
+            <button> Add ></button>
+
+            <div class="about">
+                <h3> About </h3>
+                <p>
+                    With its 6.1-inch display, the iPhone 12 is between the 5.8-inch iPhone 12 Pro and 6.5-inch iPhone
+                    12
+                    Pro Max in size. The iPhone 12 measures in at 150.9mm tall, 75.7mm wide, and 8.3mm thick, which is
+                    identical to the previous-generation iPhone XR. It weighs in at 6.84 ounces, also identical to the
+                    XR. <a href="#"> Click here to find out more. </a>
+                </p>
+            </div>
+        </div>
+        <div class="product-img"> <img alt="Apple iPhone 12 Original 5G 1TB + Fast Wireless Charging"
+                src="../images/product1.png"> </div>
+    </main>
+
+    <footer>
+        <section class="icons">
+            <img class="social-media" alt="facebook" src="../images/facebook (white).png">
+            <img class="social-media" alt="twitter" src="../images/twitter (white).png">
+            <img class="social-media" alt="instagram" src="../images/instagram (white).png">
+            <img class="social-media" alt="whatsapp" src="../images/whatsapp (white).png">
+        </section>
+
+        <section class="text">
+            <p>
+                <a href="#"> Terms of Use </a>
+                <a href="#"> Privacy Policy </a>
+            </p>
+            <p class="copyright"> Copyright © 2020 ABC Stores. </p>
+        </section>
+
+
+    </footer>
+</body>
+
+</html>
