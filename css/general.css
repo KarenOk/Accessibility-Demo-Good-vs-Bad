@@ -15,17 +15,17 @@ body {
     margin: 20px 0;
 }
 
-.navigation ul, nav ul {
+nav ul {
     /* Override left padding for ul */
     padding-left: 0;
 }
 
-.navigation li, nav li {
+.navigation p, nav li {
     display: inline-block;
     margin: 10px;
 }
 
-.navigation li a, nav li a {
+.navigation p a, nav li a {
     color: rgb(148, 1, 1);
     text-transform: uppercase;
     text-decoration: none;
